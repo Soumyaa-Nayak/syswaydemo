@@ -1,0 +1,40 @@
+body{
+	background-image:url('https://www.wallpapertip.com/wmimgs/91-915725_blue-and-green-abstract.jpg');
+
+}
+.container{
+	border: 1px solid transparent;
+	width: 40%;
+	height: 500px;
+	background: white;
+	position: absolute;
+	left: 25%;
+	top: 100px;
+	padding-left: 100px;
+
+}
+.name{
+	width: 250px;
+	height: 35px;
+	background: #DDDBDB;
+	border-style: none;
+}
+.a{
+	width: 500px;
+	height: 35px;
+	background: #DDDBDB;
+	border-style: none;
+}
+.b{
+	width: 500px;
+	height: 70px;
+	background: #DDDBDB;
+	border-style: none;
+}
+button{
+	margin-left: 40%;
+	background: #119827;
+	border-style: none;
+	width: 90px;
+	height: 30px;
+}

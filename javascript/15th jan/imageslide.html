@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="imageslide.css">
+	<title></title>
+</head>
+<body>
+	<img id="image" src="https://wallpaperaccess.com/full/94002.jpg">
+	<p  class="inc" onClick="inc()">></p>
+	<p class="dec" onClick="dec()"><</p>
+	<script type="text/javascript">
+
+		var c=0;
+		function inc(){
+			c++;
+			console.log(c);
+			if(c>=1 && c<=5){
+				ifl()
+			}
+			else{
+				c=0;
+			}
+			
+		}
+
+		function dec(){
+			c--;
+			console.log(c);
+			if(c>=1 && c<=5){
+				ifl()
+			}
+			else{
+				c=5;
+			}
+
+			ifl()
+		}
+		function ifl()
+		{
+			if(c==1){
+				document.getElementById('image').src="https://wallpaperaccess.com/full/94002.jpg";
+			}
+			if(c==2){
+				document.getElementById('image').src="https://www.wallpapertip.com/wmimgs/30-308354_cute-cat-wallpapers-hd.jpg";
+			}
+			if(c==3){
+				
+			document.getElementById('image').src="https://cdn.wallpapersafari.com/10/63/XRHkBj.jpg";
+			}
+			if(c==4){
+				document.getElementById('image').src="https://wallpapercave.com/wp/cc6s7j2.jpg";
+			}
+			if(c==5){
+				document.getElementById('image').src="https://i2.wp.com/www.funmag.org/wp-content/uploads/2016/06/cute-cats-wallpaper-20-photos-1.jpg";
+			}
+		}
+	</script>
+
+</body>
+</html>

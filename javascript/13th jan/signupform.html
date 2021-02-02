@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="signupform.css">
+	<title></title>
+</head>
+<body>
+
+	<div class="form">
+		<h1>Sign up</h1>
+  <label>First name:</label><br>
+  <input type="text" id="fname" >
+  <p id="name"></p>
+  <label>Last name:</label><br>
+  <input type="text" id="lname">
+  <p id="namelast"></p>
+
+
+  <label>Email id:</label><br>
+  <input type="text" id="email">
+  <p id="emailid"></p>
+ 
+  <label>mobile no.:</label><br>
+  <input type="text" id="mobile">
+  <p id="mob no"></p>
+  
+  
+  <button onClick="a()">Get Started</button>
+</div>
+
+
+
+<script type="text/javascript">
+	debugger;
+	function a(){
+		var namef=document.getElementById('fname').value;
+		var l=namef.length;
+		if(l<1){
+			document.getElementById('name').innerHTML=" *first name required";
+
+		}
+		else{
+			document.getElementById('name').innerHTML=" ";
+		}
+
+		var namel=document.getElementById('lname').value;
+		var l1=namel.length;
+		if(l1<1){
+			document.getElementById('namelast').innerHTML="*last name required";
+
+		}
+		else{
+			document.getElementById('namelast').innerHTML=" ";
+		}
+
+		var mob=document.getElementById('mobile').value;
+		var l2=mob.length;
+		if(l2<1){
+			document.getElementById('mob no').innerHTML="*name required";
+
+		}
+		else{
+			document.getElementById('mob no').innerHTML=" ";
+		}
+		var mailid=document.getElementById('email').value;
+		var l3=mailid.length;
+		if(l3<1){
+			document.getElementById('emailid').innerHTML="*name required";
+
+		}
+		else{
+			document.getElementById('emailid').innerHTML=" ";
+		}
+		if(l>0 && l1>0 && l2>0 && l3>0){
+			setTimeout(function(){
+				alert("submited successfully")
+				
+
+			},200)
+				
+		}
+	}
+
+	
+	
+</script>
+  
+
+</body>
+</html>

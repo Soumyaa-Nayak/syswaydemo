@@ -1,0 +1,51 @@
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top:10px;
+	border: 5px solid white;
+
+
+
+
+}
+ul li{
+	display: inline-block;
+
+
+}
+ul li a{
+	text-decoration: none;
+	color: #4E5CE1;
+	padding: 20px;
+}
+img
+{
+	height: 500px;
+	width: 100%;
+}
+.text{
+	text-align: center;
+	margin-top: 100px;
+}
+.app{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.app img{
+       width: 200px;
+       height: 200px;
+       
+}
+.a{
+	float: left;
+	margin-left: 30%;
+}
+.b{
+	float: left;
+	margin-left: 20px;
+}
+.c{
+	float: left;
+	margin-left: 20px;
+}

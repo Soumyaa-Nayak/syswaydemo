@@ -1,0 +1,28 @@
+body{
+	background: url('css/image.jpg')
+}
+table{
+	border: 2px solid black;
+	width: 60%;
+	margin-left:20%; 
+}
+th,td{
+	border: 2px solid white;
+
+}
+img{
+	width: 100%;
+	height: 200px;
+}
+.welcome{
+	 background: #19D3E9;
+}
+.content{
+	background: white;
+}
+.content h{
+	color: #0C60C7;
+}
+.last{
+	text-align: center;
+}

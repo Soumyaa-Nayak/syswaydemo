@@ -1,0 +1,93 @@
+body{
+	background: gray;
+}
+.we{
+	border: 2px solid transparent;
+	position: relative;
+	
+		width: 1130px;
+}
+.container{
+	border: 1px solid transparent;
+	width: 1150px; 	
+	background: white;
+	position: absolute;
+	left: 180px;
+
+	height: 950px;
+
+	
+}
+select{
+	border: 0px;
+	outline: 0px;
+	cursor: pointer;
+}
+.a ul,.b ul{
+	list-style-type: none;
+	position: absolute;
+	top: 10px;
+	left: 30%;
+	
+}
+
+
+.a ul li,.b ul li{
+	display: inline-block;
+
+}
+a{
+  text-decoration: none;
+  margin-left: 30px;
+}
+h3{
+	position: relative;
+	left: 100px;
+	font-family: Snap ITC;
+	font-size: 20px;
+}
+	.b{
+	position: absolute;
+	top: 12px;
+	right: 100px;
+
+	height: 50px;
+	width: 200px
+ }
+ .shop{
+ 	border: 1px solid transparent;
+ 	width: 1150px;
+ 	background: #E4E0E0;
+ }
+ .mp{
+ 	padding-top: 70px;
+ 	margin: 0px;
+ }
+ td img{
+ 	width: 250px;
+ 	height: 250px;
+ }
+ table{
+ 	position: absolute;
+ 	left: 300px;
+ 	top: 300px;
+ }
+ td{
+ 	padding-left: 20px;
+ 	padding-bottom: 10px;
+ }
+ .categories ul{
+ 	list-style-type: none;
+ 	opacity: 0.7;
+
+ }
+ .categories{
+ 	position: absolute;
+ 	top: 300px;
+ 	
+ }
+
+ .categories ul li{
+ 	margin-top: 5px;
+
+ }

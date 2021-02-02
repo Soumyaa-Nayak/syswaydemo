@@ -1,0 +1,53 @@
+
+.main{
+	background: #263A85;
+	height: 100px;
+	
+}
+.a{
+	color: white;
+	font-family: Aharoni;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+
+.n{
+	margin-bottom: 30px;
+	margin-right: 20px;
+	border-radius: 5px;
+	height: 30px;
+}
+
+.p{
+   width: 400px;
+   margin-bottom: 30px;
+   border-radius: 5px;
+   height: 30px;
+
+
+}
+.element{
+
+	background: #D5D5D5;
+	height: 600px;
+
+
+}
+.account{
+	position: absolute;
+	left: 35%;
+
+
+}
+.date
+{
+	width: 40px;
+}
+.btn{
+	width: 200px;
+	height: 30px;
+	background: #37BB50;
+	color: white;
+	border-radius: 5px;
+}

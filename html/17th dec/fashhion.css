@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+}
+.container{
+	border: 1px solid transparent;
+	width: 1200px; 	
+	
+}
+
+.main{
+	background-image: url('https://wallpaperaccess.com/full/1448057.jpg');
+    height: 640px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+ul{
+	list-style-type: none;
+	position: absolute;
+	top: 10px;
+	left: 30%;
+	
+}
+
+
+ul li{
+	display: inline-block;
+
+}
+a{
+  text-decoration: none;
+  margin-left: 30px;
+  
+ 
+
+}
+h3{
+	position: relative;
+	left: 200px;
+	font-family: Snap ITC;
+	font-size: 20px;
+
+}
+h1{
+	position: absolute;
+	left: 50%;
+	top: 200px;
+}
+h4{
+	position: absolute;
+	left: 50%;
+	top: 150px;
+}
+p{
+	position: absolute;
+	left: 50%;
+	top: 300px;
+}
+button{
+	position: absolute;
+	left: 50%;
+	top: 400px;
+	width: 150px;
+	height: 40px;
+	background: black;
+	color: white;
+}
+.b{
+	position: absolute;
+	top: 12px;
+	right: 200px;
+
+	height: 50px;
+	width: 200px;
+
+}

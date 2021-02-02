@@ -1,0 +1,20 @@
+body{
+	background: url('https://i.pinimg.com/originals/4c/96/ac/4c96ac502c60ec6089feb2b3179fab7a.jpg')
+}
+img{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	left: 600px;
+	top: 100px;
+
+
+}
+button{
+	height: 30px;
+	width: 80px;
+	border-radius: 50%;
+	position: relative;
+	top: 500px;
+	left: 650px;
+}

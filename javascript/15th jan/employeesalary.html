@@ -1,0 +1,33 @@
+<!--Calculate an employee PF and HRA by taking basic salary as user input  where PF = 10% of basic salary and HRA = 25% of basic salary (with proper HTML and CSS design).-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="employeesalary.css">
+	<title></title>
+</head>
+<body>
+	<h1>Enter Basic Salary Here &#8595;</h1>
+	<input id="bs" type="number" name="">
+	<p id="bs1"></p>
+	<p id="pf1"></p>
+
+ 
+ 
+       <button onclick="btnpf()">Click here to calculate PF</button><br><br><br>
+        <button onclick="btnhra()">Click here to calculate HRA</button>
+ <script type="text/javascript">
+ 	function btnpf(){
+			var basicsalary=document.getElementById('bs').value;
+			var pf=basicsalary*0.1;
+			document.getElementById('bs1').innerHTML="Employee PF is "+pf;
+		}
+		function btnhra(){
+			var basicsalary=document.getElementById('bs').value;
+			var hra=basicsalary*0.25;
+			document.getElementById('pf1').innerHTML="Employee HRA is "+hra;
+		}
+
+ </script>
+</body>
+</html>

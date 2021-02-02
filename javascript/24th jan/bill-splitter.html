@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bill-splitter.css">
+	<title></title>
+</head>
+<body>
+	<img src="https://cdn.pixabay.com/photo/2017/05/21/18/09/menu-2331926_1280.jpg" alt="">
+	<div class="splitter">
+	<lebel>Total amount</lebel>&nbsp;&nbsp;
+	<input id="value" placeholder="enter Total value" name=""><br><br>
+	<lebel> no.of people</lebel>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input id="people" placeholder="enter how many people" name=""><br><br>
+
+	<button id="btn" onclick="myFunction1()">add tip</button><br><br>
+
+	<button id="sp" onclick="myFunction()" >Split</button>
+	<div id="splitamount"></div>
+	<button id="reset" onclick="resetfun()">Reset</button>
+	</div>
+
+
+
+    <script type="text/javascript">
+    	function myFunction(){ 
+    		var amount=parseInt(document.getElementById('value').value);
+    		var people=parseInt(document.getElementById('people').value);
+    		var split=amount/people;
+    		document.getElementById('splitamount').innerHTML=split;
+
+
+    	}
+    
+    	function myFunction1(){
+
+    		var input=document.createElement('INPUT');
+    		input.setAttribute("id","tip")
+    		btn.remove();
+    		
+
+    		document.body.appendChild(input);
+    		var y=document.getElementById("sp")
+    			y.setAttribute("onclick" ,"pass()");
+
+
+    		
+    		
+
+    	}
+
+    	function pass(){
+    		var amount=parseInt(document.getElementById('value').value);
+    		var people=parseInt(document.getElementById('people').value);
+    		var tip=parseInt(document.getElementById('tip').value);
+    		var tipamount=(amount+tip)/people;
+    		document.getElementById('splitamount').innerHTML=tipamount;
+
+    	}
+    	function resetfun(){
+    		document.getElementById('splitamount').innerHTML=" ";
+    		document.getElementById('value').value=" ";
+    		document.getElementById('people').value=" ";
+    		document.getElementById('tip').value=" ";
+
+    	}
+
+
+
+    	
+    </script>
+</body>
+</html>

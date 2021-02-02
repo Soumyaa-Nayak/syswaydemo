@@ -1,0 +1,51 @@
+.a{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('css/1.jpg');
+     color: white;
+
+     height: 400px;
+     text-align: center;
+     padding-top: 10%;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+
+
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+	border: 1px solid transparent;
+}
+
+.btn{
+	text-decoration: none;
+	border: 6px solid #FE1D06;
+	color: #fff;
+	background: #FE1D06;
+	border-radius: 200px;
+
+
+}
+
+.b{
+	background: #FE1D06;
+	color: white;
+     text-align: center;
+     height: 200px;
+     padding: 30px;
+    
+}
+.btn2{
+	text-decoration: none;
+	color: #000;
+	background: white;
+	border-radius: 200px;
+	border: 6px solid white;
+}

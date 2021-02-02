@@ -1,0 +1,40 @@
+.container{
+	padding: 80px;
+}
+
+.i{
+	width: 200px;
+	height: 200px;
+}
+.a{
+	float: left;
+	margin: 5px;
+	text-align: center;
+
+}
+.b{
+	float: left;
+	margin: 5px;
+	text-align: center;
+}
+.c{
+	float: left;
+	margin: 5px;
+	text-align: center;
+}
+.d{
+	float: left;
+	margin: 5px;
+	text-align: center;
+}
+.place{
+	color: #7206b0;
+	font-style: italic;
+}
+.days{
+	color: green;
+}
+.price{
+	color: red;
+	font-size: 25px;
+}

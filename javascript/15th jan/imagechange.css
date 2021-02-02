@@ -1,0 +1,24 @@
+body{
+	background: #433F3F;
+}
+
+img{
+	height: 600px;
+	width: 1120px;
+	position: relative;
+	left: 200px;
+	top: 30px;
+
+}
+button{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	position: relative;
+	top: 70px;
+	right: 400px;
+	border: 1px solid white;
+	
+}
+
+

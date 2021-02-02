@@ -1,0 +1,71 @@
+.nav img{
+	width: 50px;
+	height: 50px;
+}
+.nav ul{
+	list-style-type: none;
+	position: absolute;
+	right: 50px;
+	top: 10px;
+
+}
+.nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+}
+select{
+	border-style: none;
+}
+.nav{
+	border-top: 3px solid black;
+}
+.nav p{
+	position: absolute;
+	top: 5px;
+	left: 60px;
+
+}
+.b{
+	border:1px solid black ;
+	background: #8A0D0D;
+	color: white;text-align: center;
+}
+.college{
+	width: 370px;
+	position: absolute;
+	left: 300px;
+	top: 200px;
+}
+h2{
+	color: #EE2387;
+
+}
+button{
+	border: 2px solid #EE2387;
+	border-radius: 5px;
+	background: transparent;
+	color: #EE2387;
+}
+.image{
+	position: absolute;
+	top: 650px;
+	left: 300px;
+}
+.search{
+	width: 300px;
+	height: 900px;
+	position: absolute;
+	right: 400px;
+	top: 200px;
+
+}
+.search img{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 300px;
+}
+.search ul{
+	list-style-type: none;
+	color: #EE2387;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var a=prompt("enter a number")
+		var b=parseInt(a);
+        var c=0;
+		for( var i=0;i<a.length;i++){
+		 var r=b%10;
+		 var b=Math.floor(b/10);
+		 var c=c*10+r;
+		 
+		}
+		if(a==c){
+			document.write("this is a palindrom no.")
+		}
+		else{
+			document.write("this is not a palindrom no.")
+		}
+
+
+	</script>
+
+</body>
+</html>

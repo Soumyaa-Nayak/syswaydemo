@@ -1,0 +1,58 @@
+
+body{
+	background: url('css/image.jpg')
+}
+table{
+	border: 2px solid white;
+	width: 60%;
+	margin-left:20%; 
+	background: white;
+}
+th,td{
+	border: 2px solid white;
+
+}
+img{
+	width: 100%;
+	height: 200px;
+}
+.welcome{
+	 background: #19D3E9;
+}
+.content{
+	background: white;
+
+
+}
+.content h{
+	color: #0C60C7;
+}
+.last{
+	text-align: center;
+}
+
+.list{
+	background: #6C6464;
+	color: white;
+	width: 20%;
+	vertical-align: top;
+
+}
+.list a{
+	color: white;
+
+}
+.middle{
+	height: 30px;
+	background: white;
+
+	}
+	div{
+            width: 40%;
+            border: 2px solid black;
+            float: right;
+	}
+
+	li{
+		color: red;
+	}

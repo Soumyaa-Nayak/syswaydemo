@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="text.css">
+	<title></title>
+</head>
+<body>
+	<button onclick="btn1()">button1</button><br>
+	<p id="a"></p>
+	<button onclick="btn2()">button2</button><br>
+	<p id="b"></p>
+	<button onclick="btn3()">button3</button>
+	<p id="c"></p>
+
+
+	<script type="text/javascript">
+		function btn1(){
+			document.getElementById('a').innerHTML="This is first Line"
+			document.getElementById('c').innerHTML=" "
+			document.getElementById('b').innerHTML=" "
+
+		}
+		function btn2(){
+			document.getElementById('b').innerHTML="This is Second Line"
+			document.getElementById('a').innerHTML=" "
+			document.getElementById('c').innerHTML=" "
+		}
+		function btn3(){
+			document.getElementById('c').innerHTML="This is Third Line"
+			document.getElementById('b').innerHTML=" "
+			document.getElementById('a').innerHTML=" "
+		}
+		
+	</script>
+</body>
+</html>

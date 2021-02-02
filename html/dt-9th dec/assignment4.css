@@ -1,0 +1,129 @@
+.a{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #F91212;
+	 float: left;
+	 margin: 5px;
+}
+.b{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #1A6808;
+	 float: left;
+
+
+margin: 5px;
+}
+.c{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #F1A9E4;
+	 float: right ;
+margin: 5px;
+}
+.d{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #F1EA1F;
+	 clear: both;
+	 float: left;
+	 margin: 5px;
+}
+.e{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #1A6808;
+	 float: left;
+	 margin: 5px;
+	 clear: both;
+
+
+}
+.f{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #626860;
+	 
+	 float: left;
+	 margin: 5px;
+}
+.g{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #840697;
+	 float: left;
+	 margin: 5px;
+}
+.h{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #0FE7F5;
+	 float: right;
+	 margin: 5px;
+}
+.i{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #1634CF;
+	 clear: both;
+	 float: left;
+
+	 margin: 5px;
+}
+.j{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #F1A9E4;
+	 
+	 float: right;
+	 margin: 5px;
+}
+.k{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #E81AD2;
+	 float: left;
+	 margin: 5px;
+	 clear: both;
+}
+.l{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #E11629;
+	
+	 float: left;
+	 margin: 5px;
+}
+.m{
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	 background-color: #16E1D5;
+	
+	 float: right;
+	 margin: 5px;

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="student-marks-grade.css">
+	<title></title>
+</head>
+<body>
+	<h1>STUDENT GRADE CALCULATOR</h1>
+	<img src="https://images.squarespace-cdn.com/content/v1/5a37526f64b05fcc670cf9fa/1513754549591-VR8MK9I3FVIKQK4N4VYO/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/Classroom2WIDE.jpg?format=2500w">
+	<div class="marks">
+	<lebel>marks for odia</lebel>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="text" id="sub1" placeholder="Enter Marks"><br><br>
+	<lebel>marks for English</lebel>&nbsp;
+	<input type="text" id="sub2" placeholder="Enter Marks"><br><br>
+	<lebel>marks for Maths</lebel>&nbsp;&nbsp;&nbsp;
+	<input type="text" id="sub3" placeholder="Enter Marks"><br><br>
+	<lebel>marks for History</lebel>&nbsp;
+	<input type="text" id="sub4" placeholder="Enter  Marks"><br><br>
+	<lebel>marks for Physics</lebel>&nbsp;
+	<input type="text" id="sub5" placeholder="Enter Marks"><br><br>
+	<lebel>marks for polity</lebel>&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="text" id="sub6" placeholder="Enter Marks"><br><br>
+
+		<button onclick="myFunction()">Result</button>
+	</div>
+
+	<div id="result"></div>
+
+
+	<script type="text/javascript">
+function myFunction() {
+var sub1 = parseInt(document.getElementById('sub1').value);
+var sub2 = parseInt(document.getElementById('sub2').value);
+var sub3 = parseInt(document.getElementById('sub3').value);
+var sub4 = parseInt(document.getElementById('sub4').value);
+var sub5 = parseInt(document.getElementById('sub5').value);
+var sub6 = parseInt(document.getElementById('sub6').value);
+var total = sub1+sub2+sub3+sub4+sub5+sub6;
+var percentage  = total/6;
+var grade;
+if (percentage>=35 && percentage<=60) {
+grade = 'F';
+} 
+
+else if(percentage>=61 && percentage<=70){
+grade = 'D';
+}
+
+else if(percentage>=71 && percentage<=80){
+grade = 'C';
+}
+
+else if(percentage>=81 && percentage<=90){
+grade = 'B';
+}
+
+else if(percentage>=91 && percentage<=100){
+grade = 'A';
+}
+
+else{
+grade = "Failed";
+}
+document.getElementById("result").innerHTML = "Your Total Marks : "+total+"<br>Your Percentage : "+percentage+"%<br>Your Grade : "+grade;
+}
+</script>
+
+
+</body>
+</html>

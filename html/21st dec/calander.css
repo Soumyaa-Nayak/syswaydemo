@@ -1,0 +1,183 @@
+.nav img{
+	width: 50px;
+	height: 50px;
+}
+.nav ul{
+	list-style-type: none;
+	position: absolute;
+	right: 50px;
+	top: 10px;
+
+}
+.nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+}
+select{
+	border-style: none;
+}
+.nav{
+	border-top: 3px solid black;
+}
+.nav p{
+	position: absolute;
+	top: 5px;
+	left: 60px;
+}
+.b{
+	border:1px solid black ;
+	background: #8A0D0D;
+	color: white;text-align: center;
+}
+
+.ser{
+	position: relative;
+	top: 5px;
+	height: 20px;
+	width: 25px;
+}
+.ro
+{	position: absolute;
+	top: 50px;
+	left: 10px;
+	background: #9E1717;
+	height: 100px;
+	width: 1326px;
+	text-align: center;
+	margin-bottom: 100px;
+	
+}
+.logo1{
+height: 80px;
+
+}
+.car{
+	position:absolute;
+	top:-3px;
+	right: 20px;
+	height: 30px;
+	width: 30px;
+}
+.p{
+	color: white;
+}
+.op{
+	opacity: .5;
+}
+.had{
+	font-size: 45px;
+	color: white;
+}
+.da{
+	text-align: center
+}
+.cal{
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	width: 200px;
+	height: 200px;
+}
+.app{
+	position: absolute;
+	top: 430px;
+	left: 150px;
+	height: 250px;
+	width: 210px;
+}
+.im1{
+	position: relative;
+	left: 400px;
+	height: 350px;
+	width: 200px;
+}
+.im2{
+	position: relative;
+	bottom: 350px;
+	left: 670px;
+	height: 350px;
+	width: 200px;
+}
+.im3{
+	position: relative;
+	bottom:701px;
+	left: 940px;
+	height: 350px;
+	width: 200px;
+}
+.im4{
+	position: relative;
+	bottom:701px;
+	left: 400px;
+	height: 350px;
+	width: 200px;
+}
+.imgz{
+	height: 250px;
+	width: 250px;
+}
+.im1p{
+	position: absolute;
+	top: 234px;
+	left: 0px;
+	background: blue;
+	width: 60px;
+	height: 70px;
+	color: white;
+}
+.im1s{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+.im1s2{
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+
+}
+.im1p1{
+	position: absolute;
+	left: 70px;
+	font-size: 15px;
+	font-weight: bold;
+	color: red;
+}
+
+.fo{
+	position: absolute;
+	top: 1150px;
+	left: 150px;
+	width: 900px;
+	height: 200px;
+	text-align: left;
+}
+.fo td{
+	
+	padding-left: 50px;
+}
+.fop{
+	font-size: 10px;
+}
+.lpo{
+	height: 70px;
+	
+}
+.forb{ 
+	position: relative;
+	bottom: 500px;
+}
+.pop{
+	position: relative;
+	
+	height: 26px;
+	border-style: none;
+	
+	width: 80px;
+	background: #9E1717;
+	color: white;
+}
+.jm{
+	height: 20px;
+	width: 200px;
+}

@@ -1,0 +1,27 @@
+.a{
+	background: url('css/5.jpg');
+	height: 100px;
+
+}
+.b{
+	border: 1px solid black;
+}
+h2{
+	color: #D65F10;
+}
+.c{
+	background: url('css/3.jpg');
+
+}
+.d{
+	background: url('css/4.jpg');
+}
+.e{
+	background: url('css/2.jpg');
+}
+.c,.d,.e{
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+}

@@ -1,0 +1,45 @@
+.a {
+	text-align: center;
+}
+tr{
+	position: absolute;
+	left: 400px;
+	border-spacing: 20px;
+
+}
+td img
+{
+	width: 200px;
+	height: 200px;
+}
+button{
+	position: absolute;
+	top: 400px;
+	left: 700px;
+	background: #1CCBD1;
+	color: white;
+	border: none;
+	height: 30px;
+
+}
+.b img{
+	width: 1515px;
+	height: 250px;
+	position: absolute;
+	top: 450px;
+	
+}
+.bb{
+	position: absolute;
+	top: 550px;
+	left: 500px;
+	text-align: center;
+	color: white;
+}
+.c tr{
+	position: absolute;
+	top: 700px;
+}
+.c td{
+	border-spacing: 30px;
+}

@@ -1,0 +1,36 @@
+<!--- Take a user input and an Add button . Show that input text after performing the add. after showing the the input text there should be a delete option. and perform the delete operation (with proper HTML and CSS design).--->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="userinput.css">
+	<title></title>
+</head>
+<body>
+	<h1>Enter Text Here </h1>
+	<input id="user" type="text" name="">
+	<button class="btn1" onClick=addbtn()>Add</button>
+	<button  class="btn2" onClick=deletebtn()>Delete</button>
+
+   <p id="userinput"></p>
+
+	<script type="text/javascript">
+		function addbtn(){
+		var input1=document.getElementById('user').value;
+		
+		document.getElementById('userinput').innerHTML=input1;
+		document.getElementById('user').value=" ";
+	}
+	function deletebtn(){
+		var input1=document.getElementById('user').value;
+		document.getElementById('userinput').innerHTML=" ";
+ 
+
+	}
+		
+
+	</script>
+
+
+</body>
+</html>

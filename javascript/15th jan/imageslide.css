@@ -1,0 +1,24 @@
+body{
+	background: #433F3F;
+}
+
+img{
+	height: 600px;
+	width: 1120px;
+	position: relative;
+	left: 200px;
+	top: 30px;}
+.inc{
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	left: 1300px;
+	top: 230px;
+}	
+.dec{
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	left: 210px;
+	top: 230px;
+}	

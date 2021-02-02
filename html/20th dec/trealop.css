@@ -1,0 +1,97 @@
+.nav{
+	border: 1px solid transparent;
+	height: 60px;
+	background: #19B5C3;
+	color: white;
+
+}
+h1{
+	padding-left: 200px;
+}
+ul{
+	list-style-type: none;
+	position: absolute;
+	right: 300px;
+	top: 15px;
+}
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration: none;
+	margin-left: 50px;
+	color: white;
+}
+img{
+	height: 500px;
+	width: 1505px;
+	opacity: 0.7
+
+}
+.content{
+	position: absolute;
+	top: 150px;
+	left: 400px;
+}
+
+.heading{
+	font-size: 50px;
+	color:#095467;
+	margin-top: 10px;
+}
+p{
+	font-size: 20px;
+	color: #0D8D8B;
+
+}
+button{
+	width: 150px;
+	height: 30px;
+
+}
+.btn1{
+	background: #188E8A;
+	color: white;
+	border: none;
+}
+.btn2{
+	background: transparent;
+	color: #157560;
+	border: 2px solid #157560;
+}
+td img{
+	width: 80px;
+	height: 80px;
+}
+.section1{
+	text-align: center;
+	background: #D7D5D5;
+	border: 1px solid black;
+	height: 500px;
+
+}
+.section1 p{
+	color: black;
+}
+tr{
+	position: absolute;
+	left: 200px;
+	border-spacing: 20px;
+}
+ td{
+	margin-left: 50px;
+	border: 2px solid transparent;
+	background: white;
+}
+td button{
+	position: relative;
+	top: 20px;
+	background: #35D4F1;
+	border: none;
+}
+span{
+	font-size: 30px;
+	color: #35D4F1;
+
+}

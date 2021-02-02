@@ -1,0 +1,59 @@
+img{
+	width: 1515px;
+	height: 700px;
+}
+.splitter{
+	position: absolute;
+	top: 150px;
+	left: 500px;
+}
+
+lebel{
+	font-size: 40px;
+	font-weight: bolder;
+	color: #146D40;
+}
+input{
+	height: 40px;
+	width: 200px;
+	background: transparent;
+	border: 3px dotted #146D40 ;
+	text-align: center;
+}
+#tip{
+	position: absolute;
+	top: 310px;
+	left: 730px;
+}
+#btn{
+	position: absolute;
+	left: 100px;
+	top: 170px;
+}
+#sp{
+	position: absolute;
+	top: 270px;
+	left: 100px;
+}
+#reset{
+	position: absolute;
+	top: 270px;
+	left: 250px;
+}
+
+button{
+	height: 30px;
+	width: 100px;
+	background: #146D40;
+	color: #FEFAFA;
+	border: none;
+	font-weight: bold;
+	border-radius: 10px;
+}
+#splitamount{
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	font-size: 30px;
+	color:#146D40 ;
+}

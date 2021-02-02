@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="wordlength.css">
+	<title></title>
+</head>
+<body>
+	<h1>Type a Text</h1>
+
+	<input id="a" type="text" name="">
+	<p id="root"></p>
+	<div id="root1"></div>
+
+	
+
+	<button onClick="myfunction()">click here to know the text length</button>
+
+	<script type="text/javascript">
+		
+		function myfunction(){
+			var value=document.getElementById('a').value;
+		    var length1=value.length;
+			document.getElementById('root').innerHTML=length1;
+			document.getElementById('root1').innerHTML="The length of"+" "+value+" "+ "is"+" " +length1;
+
+		}
+
+		
+	</script>
+
+</body>
+</html>

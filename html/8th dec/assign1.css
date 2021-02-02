@@ -1,0 +1,27 @@
+body{
+	padding: 10px;
+	border: 2px solid black;
+	width: 40%;
+	height: 700px;
+}
+
+h1{
+	color: #313484;
+	background: #8C8484;
+	text-align: center;
+	
+}
+h2{
+	color: #660505;
+}
+span{
+	float: right;
+	
+
+}
+.content{
+	margin: 10px;
+}
+.e{
+	margin-top: 50px;
+}

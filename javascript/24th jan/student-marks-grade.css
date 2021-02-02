@@ -1,0 +1,44 @@
+body{
+	background:#EAE66E;
+}
+
+img{
+	height: 620px;
+	width: 1520px;
+
+}
+.marks{
+	position: absolute;
+	top: 150px;
+	left: 250px;
+}
+#result{
+	position: absolute;
+	top: 150px;
+	left: 700px;
+	font-size: 40px;
+	font-family: cursive;
+	color: #2A600F;
+	 
+}
+lebel{
+	color: #D2D90E;
+	font-weight: bolder;
+}
+button{
+	position: relative;
+	left: 100px;
+	top: 10px;
+	font-weight: bolder;
+	color: #2A600F;
+	background: #D2D90E;
+	height: 30px;
+	border: none;
+	width: 100px;
+}
+h1{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	text-align: center;
+	color: #2A600F;
+
+}

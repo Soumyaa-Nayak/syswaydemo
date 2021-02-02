@@ -1,0 +1,61 @@
+body{
+	background: #DFDBDB	;
+}
+tr{
+	border-collapse: collapse;
+}
+
+table{
+	border-collapse: collapse;
+
+	background: #DFDBDB	;
+	margin: 15%;
+	width: 1000px;
+
+}
+img{
+	height: 500px;
+	width: 500px;
+}
+.a{
+	background: #D3C30E;
+}
+.b{
+	background: #F8DD2B;
+
+}
+.c{
+	background: #DFE549;
+}
+.d{
+	background: #E8EE82;
+}
+.btn1{
+	background: #FBD60C;
+	color: black;
+}
+.btn2{
+	background: white;
+	color: black;
+}
+.y{
+	text-align: center;
+	height: 300px;
+	width: 250px;
+}
+.a img{
+	width: 30px;
+	height: 30px;		
+}
+.b img{
+	width: 30px;
+	height: 30px;		
+}
+.c img{
+	width: 30px;
+	height: 30px;		
+}
+.d img{
+	width: 30px;
+	height: 30px;		
+}
